@@ -1,0 +1,54 @@
+.header {
+  .navbar {
+    max-width: min(90%, 144rem);
+    margin: 7.3rem auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-links {
+      display: flex;
+
+      li {
+        margin-left: 5.7rem;
+
+        .nav-link {
+          font-size: 1.4rem;
+          transition: all 0.25s ease-in-out;
+
+          &:hover {
+            text-shadow: 0 0 0.65px #fff, 0 0 0.65px #fff;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .hero {
+    .hero-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 73rem;
+      margin: 0 auto;
+      text-align: center;
+
+      .hero-title {
+        font-size: 4rem;
+        line-height: 6rem;
+        font-weight: 700;
+        margin-block: 3.6rem;
+      }
+
+      .hero-description {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 3.2rem;
+        width: 59rem;
+      }
+    }
+  }
+}

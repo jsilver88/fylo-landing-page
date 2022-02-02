@@ -1,0 +1,46 @@
+.cta-banner {
+  .cta-container {
+    max-width: min(90%, 144rem);
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.7rem;
+
+    .cta-text {
+      max-width: 56rem;
+
+      .cta-title {
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+
+      .cta-description {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.6rem;
+      }
+
+      .cta-btn {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        color: #62e0d9;
+        line-height: 2.2rem;
+        border-bottom: 1px solid #62e0d9;
+
+        transition: all 0.25s ease-in-out;
+
+        &:hover {
+          color: #fff;
+          border-color: #fff;
+        }
+
+        ion-icon {
+          margin-left: 0.4rem;
+        }
+      }
+    }
+  }
+}

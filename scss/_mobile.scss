@@ -1,0 +1,111 @@
+@media screen and (max-width: 800px) {
+  .header {
+    .navbar {
+      margin-top: 2.4rem;
+      margin-bottom: 4.8rem;
+
+      .logo {
+        width: 8rem;
+      }
+
+      .nav-links {
+        li {
+          margin-left: 2.4rem;
+
+          .nav-link {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+    .hero {
+      .hero-container {
+        img {
+          width: 30rem;
+        }
+
+        .hero-title {
+          font-size: 2.4rem;
+          line-height: 3.6rem;
+        }
+
+        .hero-description {
+          font-size: 1.4rem;
+          line-height: 2.1rem;
+          width: 30rem;
+        }
+      }
+    }
+  }
+
+  .services {
+    .service-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .cta-banner {
+    .cta-container {
+      flex-direction: column;
+
+      .cta-text {
+        width: 34rem;
+        .cta-title {
+          font-size: 1.8rem;
+          line-height: 2.4rem;
+          margin-bottom: 1.6rem;
+
+          br {
+            display: none;
+          }
+        }
+
+        .cta-btn {
+          width: 38%;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .testimonials {
+    .testimonial-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .subscribe-banner {
+    .subscribe-container {
+      width: 34rem;
+      padding: 4rem 2.2rem;
+
+      .subscribe-title {
+        font-size: 1.8rem;
+      }
+
+      .form {
+        flex-direction: column;
+
+        #email {
+          width: 28rem;
+          margin-bottom: 2.4rem;
+        }
+
+        .btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding: 8.3rem 0 5.2rem 0;
+    .footer-container {
+      grid-template-columns: 1fr;
+
+      .social-links {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(138.1deg, #63e1d9 -49.34%, #34a0cd 100%);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 28px;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 2rem 9.6rem;
+  cursor: pointer;
+
+  &:hover {
+    background: #8adae3;
+  }
+}
+
+img {
+  max-width: 100%;
+}

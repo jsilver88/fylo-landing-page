@@ -1,0 +1,25 @@
+.services {
+  padding-block: 15rem;
+
+  .service-container {
+    max-width: 88rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14rem;
+    text-align: center;
+
+    .service {
+      .service-title {
+        margin-top: 1.6rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .service-description {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+      }
+    }
+  }
+}
